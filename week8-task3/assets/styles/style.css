@@ -10,6 +10,7 @@
 }
 
 .body-index {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 55%;
   grid-template-areas:
@@ -152,11 +153,21 @@
   width: 86%;
   margin: 0 auto;
 }
-/* .footer_index {
+.footer__menu_index {
   margin-left: 9vw;
-} */
+}
 /*Tablet*/
 @media (max-width: 1023px) {
+  .body-index {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
+  .aside {
+    display: none;
+  }
   .main-posibillities__container {
     width: 95%;
     grid-template-columns: 1fr 1fr;

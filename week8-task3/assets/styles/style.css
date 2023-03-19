@@ -28,12 +28,14 @@
 .aside {
   grid-area: aside;
 }
+.aside__img {
+  max-width: 100%;
+}
 .header__menu {
   width: 90%;
   margin: 49px auto 0px auto;
 }
 .nav_top {
-  display: flex;
   justify-content: space-between;
 }
 .nav {
@@ -130,14 +132,9 @@
   background-color: #5222d0;
   color: white;
 }
-.button_violet:hover {
-  background-color: white;
-  color: #5222d0;
-  border: 1px solid #5222d0;
-}
 .button_big {
   padding: 28px 28px 21px 33px;
-  font-size: clamp(20px, 5vw, 35px);
+  font-size: 35px;
   line-height: 100%;
 }
 .button_img {
@@ -164,6 +161,9 @@
       "header"
       "main"
       "footer";
+  }
+  .main-index__container {
+    margin-right: 9vw;
   }
   .aside {
     display: none;

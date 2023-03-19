@@ -172,9 +172,6 @@
     width: 95%;
     grid-template-columns: 1fr 1fr;
   }
-  .footer__menu {
-    width: 95%;
-  }
 }
 /*Mobile*/
 @media (max-width: 767px) {
